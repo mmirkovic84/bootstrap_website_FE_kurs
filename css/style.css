@@ -1,0 +1,21 @@
+.grey_color1 {
+    background-color: #6c757e !important;
+}
+.green_color1 {
+    background-color: #1bbc9b !important;
+}
+.navbar-nav {
+            margin-left: auto;
+        }
+.nav-link:hover {
+color: #1bbc9b !important;
+}
+.avatar_area {
+
+}
+.avatar_area img {
+    width: 45%;
+}
+.minus_i {
+    margin-left: -5px !important;
+}
