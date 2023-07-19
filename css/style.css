@@ -216,7 +216,6 @@ body {
   border: none !important;
 }
 
-
 .modal-backdrop {
   background-color: rgb(27, 188, 155) !important;
 }
@@ -332,7 +331,6 @@ input[type=textarea] {
 }
 
 .circle_icon:hover {
-  /*animation: spinAround 0.2s linear 1; */
   animation: pulse 1s;
   animation-fill-mode: forwards;
 }
@@ -375,16 +373,6 @@ input[type=textarea] {
   transition: 0.7s;
 }
 
-/* @keyframes spinAround {
-  from {
-    transform: rotate(0deg)
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
- */
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -461,10 +449,12 @@ input[type=textarea] {
   transition: all 1s;
   z-index: 99;
 }
+
 .ortf_imgs:hover .text_imgs {
   transform: translateX(0px);
   cursor: pointer;
 }
+
 .text_imgs_greenoverlay {
   background: rgb(27, 188, 155, 0);
   position: absolute;
@@ -475,7 +465,8 @@ input[type=textarea] {
   z-index: 9;
   transition: .8s;
 }
-.ortf_imgs:hover > .text_imgs_greenoverlay {
+
+.ortf_imgs:hover>.text_imgs_greenoverlay {
   background: rgb(27, 188, 155, 0.88);
   cursor: pointer;
 }
